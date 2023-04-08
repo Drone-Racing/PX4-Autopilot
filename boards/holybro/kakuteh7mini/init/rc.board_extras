@@ -11,3 +11,5 @@ fi
 # DShot telemetry is always on UART7
 dshot telemetry /dev/ttyS5
 
+sleep 30
+microdds_client start -t serial -d /dev/ttyS3 -b 3000000
