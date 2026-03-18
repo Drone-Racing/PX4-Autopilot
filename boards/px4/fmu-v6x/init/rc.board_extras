@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+
+sleep 30
+uxrce_dds_client start -t serial -d /dev/ttyS7 -b 3000000
